@@ -11,11 +11,11 @@ import me from "./images/me.jpg";
 import code from "./images/code.png";
 import design from "./images/design.png";
 import consulting from "./images/consulting.png";
-import web1 from "./images/web1.png";
-import web2 from "./images/web2.png";
-import web3 from "./images/web3.png";
-import web4 from "./images/web4.png";
-import web5 from "./images/web5.png";
+import web1 from "./images/p1.png";
+import web2 from "./images/p2.png";
+import web3 from "./images/p3.png";
+import web4 from "./images/p4.png";
+import web5 from "./images/p5.png";
 import web6 from "./images/web6.png";
 import resumePDF from './images/resume.pdf';
 
@@ -232,26 +232,27 @@ function App() {
             <div className="basis-1/3 flex-1">
               <img
                 className="rounded-lg object-cover"
-                width={400}
+                width={500}
                 height={250}
                 layout="responsive"
                 src={web1}
                 alt="Project 1"
               />
               <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                Project 6
+                ToDo Application
               </p>
 
-              <p className="text-red-600">Description of project 1</p>
+              <p className="text-red-600">ToDO Application made using ReactJs with localStorage<br></br>
+               user can edit add delete and mark complete the todo</p>
               <div className="flex justify-center mt-4">
                 <a
-                  href="#"
-                  className="btn-primary mr-12 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  href="https://github.com/AshutoshRajGupta/Todo_react" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
                 <a
-                  href="#"
+                  href="https://todo-react-six-red.vercel.app/" target="_blank"
                   className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                 >
                   Visit Website
@@ -261,26 +262,26 @@ function App() {
             <div className="basis-1/3 flex-1">
               <img
                 className="rounded-lg object-cover"
-                width={400}
+                width={500}
                 height={250}
                 layout="responsive"
                 src={web2}
                 alt="Project 2"
               />
               <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                Project 6
+                Random Advice Generator
               </p>
 
-              <p className="text-red-600">Description of project 2</p>
+              <p className="text-red-600">random Advice generator made using ReactJs with advice API <br></br>user can click on the button and get the advice</p>
               <div className="flex justify-center mt-4">
                 <a
-                  href="#"
-                  className="btn-primary mr-12 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  href="https://github.com/AshutoshRajGupta/Random_quote_generator" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
                 <a
-                  href="#"
+                  href="https://random-quote-generator-woad.vercel.app/" target="_blank"
                   className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                 >
                   Visit Website
@@ -290,26 +291,26 @@ function App() {
             <div className="basis-1/3 flex-1">
               <img
                 className="rounded-lg object-cover"
-                width={400}
+                width={500}
                 height={250}
                 layout="responsive"
                 src={web3}
                 alt="Project 3"
               />
               <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                Project 6
+                PortFolio
               </p>
 
-              <p className="text-red-600">Description of project 3</p>
+              <p className="text-red-600">Portfolio made using ReactJs which showcase my projects and skills</p>
               <div className="flex justify-center mt-4">
                 <a
-                  href="#"
-                  className="btn-primary mr-12 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  href="https://github.com/AshutoshRajGupta/portfo" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
                 <a
-                  href="#"
+                  href="https://portfo-psi-five.vercel.app/" target="_blank"
                   className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                 >
                   Visit Website
@@ -319,26 +320,27 @@ function App() {
             <div className="basis-1/3 flex-1">
               <img
                 className="rounded-lg object-cover"
-                width={400}
+                width={500}
                 height={250}
                 layout="responsive"
                 src={web4}
                 alt="Project 4"
               />
               <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                Project 6
+                Event Management System
               </p>
 
-              <p className="text-red-600">Description of project 4</p>
+              <p className="text-red-600">Event management system made for college studentto register and<br></br> aprticipate in event.User can register then login go payment fees etc. </p>
               <div className="flex justify-center mt-4">
                 <a
-                  href="#"
-                  className="btn-primary mr-12 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  href="https://github.com/AshutoshRajGupta/WTL_MIni_Project" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
                 <a
-                  href="#"
+                                    href="https://github.com/AshutoshRajGupta/WTL_MIni_Project" target="_blank"
+
                   className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                 >
                   Visit Website
@@ -348,26 +350,26 @@ function App() {
             <div className="basis-1/3 flex-1">
               <img
                 className="rounded-lg object-cover"
-                width={400}
+                width={500}
                 height={250}
                 layout="responsive"
                 src={web5}
                 alt="Project 5"
               />
               <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                Project 6
+                Map2procoder
               </p>
 
-              <p className="text-red-600">Description of project 5</p>
+              <p className="text-red-600">A website which describes the learning path for different domains</p>
               <div className="flex justify-center mt-4">
                 <a
-                  href="#"
-                  className="btn-primary mr-12 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  href="https://github.com/AshutoshRajGupta/map2proCoder" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
                 <a
-                  href="#"
+                  href="https://map2procoder.vercel.app/" target="_blank"
                   className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                 >
                   Visit Website
@@ -377,7 +379,7 @@ function App() {
             <div className="basis-1/3 flex-1">
               <img
                 className="rounded-lg object-cover"
-                width={400}
+                width={500}
                 height={250}
                 layout="responsive"
                 src={web6}
@@ -391,7 +393,7 @@ function App() {
               <div className="flex justify-center mt-4">
                 <a
                   href="#"
-                  className="btn-primary mr-12 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
@@ -414,19 +416,19 @@ function App() {
             <div className="flex justify-center mt-8">
               <a
                 href="https://www.linkedin.com/in/ashutosh-raj-gupta-18230820b/"
-                className="btn-primary mr-4 bg-blue-600 hover:bg-blue-800 px-6 py-3 animate-bounce"
+                className="btn-primary mr-10 bg-blue-600 hover:bg-blue-800 px-6 py-3 animate-bounce"
               >
                 LinkedIn
               </a>
               <a
                 href="https://github.com/AshutoshRajGupta"
-                className="btn-secondary bg-gray-800 text-white hover:bg-gray-900 px-6 py-3 animate-pulse"
+                className="btn-secondary mr-10 bg-gray-800 text-white hover:bg-gray-900 px-6 py-3 animate-pulse"
               >
                 GitHub
               </a>
               <a
                 href="#"
-                className="btn-secondary bg-red-600 hover:bg-red-800 px-6 py-3 animate-spin"
+                className="btn-secondary mr-10 bg-red-600 hover:bg-red-800 px-6 py-3 animate-spin"
               >
                 Mail
               </a>
