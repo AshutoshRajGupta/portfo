@@ -8,9 +8,12 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from "react";
 import me from "./images/me.jpg";
-import code from "./images/code.png";
-import design from "./images/design.png";
-import consulting from "./images/consulting.png";
+import code from "./images/enigma.png";
+import design from "./images/python_certification.jpg";
+import consulting from "./images/reactjs.jpg";
+import sql from "./images/SQL.png";
+import ds from "./images/datascience.jpg";
+
 import web1 from "./images/p1.png";
 import web2 from "./images/p2.png";
 import web3 from "./images/p3.png";
@@ -99,55 +102,61 @@ function App() {
           <div className="lg:flex gap-10">
             <div className="lg:w-1/3">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={design} width={100} height={100} />
+                <img src={code} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Certification Title 3
+                  ENIGMA
                 </h3>
-                <p className="py-2">
-                  Description of the certification or course. Briefly explain
-                  what it covers and what you've learned.
-                </p>
+                <a
+                  href="https://github.com/AshutoshRajGupta/Random_quote_generator" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                >
+                  visit
+                </a>
                 <h4 className="py-4 text-teal-600">Skills Gained</h4>
                 <ul className="text-gray-800 py-1">
-                  <li>Skill 1</li>
-                  <li>Skill 2</li>
-                  <li>Skill 3</li>
+                  <li>COMPETITIVE PROGRAMMING</li>
+                  <li>CODING SKILLS</li>
+                  
                 </ul>
               </div>
             </div>
             <div className="lg:w-1/3">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={code} width={100} height={100} />
+                <img src={design} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Certification Title 3
+                  PYTHON COURSE
                 </h3>
-                <p className="py-2">
-                  Description of the certification or course. Briefly explain
-                  what it covers and what you've learned.
-                </p>
+                <a
+                  href="https://www.udemy.com/certificate/UC-e442c3b5-b993-4f05-9ca5-18b0881c2cce/" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                >
+                  visit
+                </a>
                 <h4 className="py-4 text-teal-600">Skills Gained</h4>
                 <ul className="text-gray-800 py-1">
-                  <li>Skill 1</li>
-                  <li>Skill 2</li>
-                  <li>Skill 3</li>
+                  <li>PYTHON BASICS</li>
+                  <li>FRAMEWORKS</li>
+                  
                 </ul>
               </div>
             </div>
             <div className="lg:w-1/3">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={consulting} width={100} height={100} />
+                <img src={consulting} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Certification Title 3
+                  REACTJS CERTIFICATION
                 </h3>
-                <p className="py-2">
-                  Description of the certification or course. Briefly explain
-                  what it covers and what you've learned.
-                </p>
+                <a
+                  href="https://www.udemy.com/certificate/UC-2b0e022c-a01e-4d43-a853-6e99b5a2a40e/" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                >
+                  visit
+                </a>
                 <h4 className="py-4 text-teal-600">Skills Gained</h4>
                 <ul className="text-gray-800 py-1">
-                  <li>Skill 1</li>
-                  <li>Skill 2</li>
-                  <li>Skill 3</li>
+                  <li>REACT COMPONENT</li>
+                  <li>HOOKS IN REACT</li>
+                  <li>EVENT HANDLING</li>
                 </ul>
               </div>
             </div>
@@ -155,14 +164,37 @@ function App() {
           <div className="lg:flex gap-10">
             <div className="lg:w-1/3">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={design} width={100} height={100} />
+                <img src={ds} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Certification Title 3
+                DATASCIENCE WITH PYTHON
                 </h3>
-                <p className="py-2">
-                  Description of the certification or course. Briefly explain
-                  what it covers and what you've learned.
-                </p>
+                <a
+                  href="https://www.udemy.com/certificate/UC-06476e45-241e-4d52-a89f-d2c29c067f41/" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                >
+                  visit
+                </a>
+                <h4 className="py-4 text-teal-600">Skills Gained</h4>
+                <ul className="text-gray-800 py-1">
+                  <li>DATASCIENCE</li>
+                  <li>NUMPY</li>
+                  <li>PANDAS</li>
+                  <li>MATPLOTLIB</li>
+                </ul>
+              </div>
+            </div>
+            <div className="lg:w-1/3">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <img src={sql} width={300} height={100} />
+                <h3 className="text-lg font-medium pt-8 pb-2">
+                  SQL COURSE CERTIFICATION
+                </h3>
+                <a
+                  href="https://www.sololearn.com/certificates/CT-CMYLLQGB" target="_blank"
+                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                >
+                  visit
+                </a>
                 <h4 className="py-4 text-teal-600">Skills Gained</h4>
                 <ul className="text-gray-800 py-1">
                   <li>Skill 1</li>
@@ -173,25 +205,7 @@ function App() {
             </div>
             <div className="lg:w-1/3">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={consulting} width={100} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">
-                  Certification Title 3
-                </h3>
-                <p className="py-2">
-                  Description of the certification or course. Briefly explain
-                  what it covers and what you've learned.
-                </p>
-                <h4 className="py-4 text-teal-600">Skills Gained</h4>
-                <ul className="text-gray-800 py-1">
-                  <li>Skill 1</li>
-                  <li>Skill 2</li>
-                  <li>Skill 3</li>
-                </ul>
-              </div>
-            </div>
-            <div className="lg:w-1/3">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={code} width={100} height={100} />
+                <img src={code} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Certification Title 3
                 </h3>
