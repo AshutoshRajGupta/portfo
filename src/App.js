@@ -19,7 +19,7 @@ import web2 from "./images/p2.png";
 import web3 from "./images/p3.png";
 import web4 from "./images/p4.png";
 import web5 from "./images/p5.png";
-import web6 from "./images/web6.png";
+import web6 from './images/p6.png';
 import resumePDF from './images/resume.pdf';
 
 
@@ -82,7 +82,7 @@ function App() {
               </a>
             </div>
 
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-20 md:h-56 md:w-56">
               <img src={me} layout="fill" objectFit="cover" />
             </div>
           </div>
@@ -312,19 +312,19 @@ function App() {
                 alt="Project 3"
               />
               <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                PortFolio
+                Ecommerce Website
               </p>
 
-              <p className="text-red-600">Portfolio made using ReactJs which showcase my projects and skills</p>
+              <p className="text-red-600">Ecommerce website made using php mysql html where user<br></br> can login sign in add items into cart and proceed to payment.</p>
               <div className="flex justify-center mt-4">
                 <a
-                  href="https://github.com/AshutoshRajGupta/portfo" target="_blank"
+                  href="" target="_blank"
                   className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
                 <a
-                  href="https://portfo-psi-five.vercel.app/" target="_blank"
+                  href="" target="_blank"
                   className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                 >
                   Visit Website
@@ -400,19 +400,19 @@ function App() {
                 alt="Project 6"
               />
               <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                Project 6
+                Expense Budget App
               </p>
 
-              <p className="text-red-600">Description of project 6</p>
+              <p className="text-red-600">Budget app made using reactjs and vitejs to manage your budget and expense</p>
               <div className="flex justify-center mt-4">
                 <a
-                  href="#"
+                  href="https://github.com/AshutoshRajGupta/expense_try" target="_blank"
                   className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
                 >
                   Github
                 </a>
                 <a
-                  href="#"
+                  href="https://expense-try.vercel.app" target="_blank"
                   className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                 >
                   Visit Website
