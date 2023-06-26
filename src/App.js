@@ -23,9 +23,7 @@ import web5 from "./images/p5.png";
 import web6 from "./images/p6.png";
 import advnc from "./images/advnc1.png";
 import advnc1 from "./images/advnc2.png";
-import resumePDF from "./images/resume.pdf";
-
-
+import resumePDF from "./images/Ashutosh_resume.pdf";
 
 function App() {
   return (
@@ -47,7 +45,9 @@ function App() {
                 <a
                   className="bg-gradient-to-r from-cyan-500 text-to-teal-900 text-white px-4 py-2 border-none rounded-md ml-8"
                   href={resumePDF}
-                  download="resume.pdf"
+                  // download="Ashutosh_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   RESUME
                 </a>
@@ -97,8 +97,8 @@ function App() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-gray-800 font-extrabold">
-              Certifications and Courses
+            <h3 className="text-3xl py-1 dark:text-white-800 font-extrabold">
+              Certifications and courses
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Throughout my career as a designer and developer, I have acquired
