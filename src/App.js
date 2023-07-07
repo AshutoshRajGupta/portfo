@@ -321,7 +321,7 @@ function App() {
                     Github
                   </a>
                   <a
-                    href="https://todo-react-six-red.vercel.app/"
+                    href="https://todo-firebase-mu.vercel.app/"
                     target="_blank"
                     className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                   >
