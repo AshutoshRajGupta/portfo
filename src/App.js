@@ -23,6 +23,8 @@ import web5 from "./images/p5.png";
 import web6 from "./images/p6.png";
 import advnc from "./images/advnc1.png";
 import advnc1 from "./images/advnc2.png";
+import advnc2 from "./images/ci.png"
+import advnc3 from "./images/emern.png"
 import resumePDF from "./images/Ashutosh_resume.pdf";
 
 function App() {
@@ -493,6 +495,44 @@ function App() {
             </h4>
 
             <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+                <img
+                  className="rounded-lg object-cover"
+                  width={500}
+                  height={250}
+                  layout="responsive"
+                  src={advnc2}
+                  alt="Project 3"
+                />
+                <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
+                Creative_Insights
+                </p>
+
+                <p className="text-red-600">
+                  A Full stack NextJS website made using mongodb reactjs
+                  NextJS<br></br> where user can add blog and his Portfolio
+                  work user can easily<br></br> authenticate through 
+                  google authenticationhe can<br></br> delete the blogs
+                   and all the blogs will be save on the database.
+                </p>
+                <div className="flex justify-center mt-4">
+                  <a
+                    href="https://github.com/AshutoshRajGupta/Creative_Insights"
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href="https://www.youtube.com/watch?v=-eYh6Cs01D4"
+                    target="_blank"
+                    className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
+                  >
+                    Visit Website
+                  </a>
+                </div>
+              </div>
+
               <div className="basis-1/3 flex-1">
                 <img
                   className="rounded-lg object-cover"
@@ -522,6 +562,43 @@ function App() {
                   </a>
                   <a
                     href=""
+                    target="_blank"
+                    className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
+                  >
+                    Visit Website
+                  </a>
+                </div>
+              </div>
+
+              <div className="basis-1/3 flex-1">
+                <img
+                  className="rounded-lg object-cover"
+                  width={500}
+                  height={250}
+                  layout="responsive"
+                  src={advnc3}
+                  alt="Project 3"
+                />
+                <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
+                  Ecommerce MERN Website
+                </p>
+
+                <p className="text-red-600">
+                  A mern stack Ecommerce website made using mongodb reactjs
+                  express nodejs<br></br> where user can add information about
+                  his products  and <br></br>he can delete the products and all the
+                  products will be save on the database.
+                </p>
+                <div className="flex justify-center mt-4">
+                  <a
+                    href="https://github.com/AshutoshRajGupta/ecommerce"
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    Github
+                  </a>
+                  <a
+                    href="https://github.com/AshutoshRajGupta/ecommerce"
                     target="_blank"
                     className="btn-secondary px-4 py-2 bg-gray-300 text-gray-800 border border-gray-300 hover:bg-gray-400 hover:border-gray-400"
                   >
