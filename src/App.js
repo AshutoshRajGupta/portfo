@@ -8,7 +8,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { Tilt } from "react-tilt";
 import { FiBriefcase } from "react-icons/fi";
-import { useState,useEffect } from "react";
+import { useState } from "react";
 import me from "./images/me.jpg";
 import code from "./images/enigma.png";
 import design from "./images/python_certification.jpg";
