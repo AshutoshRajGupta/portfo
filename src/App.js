@@ -27,8 +27,8 @@ import advnc2 from "./images/ci.png";
 import advnc3 from "./images/emern.png";
 import resumePDF from "./images/Ashutosh_resume.pdf";
 import ButtonImage from "./images/me.jpg";
-import github from "./images/github.png"
-import link from "./images/click.jpg"
+import github from "./images/github.png";
+import link from "./images/click.jpg";
 function App() {
   return (
     <div>
@@ -172,7 +172,12 @@ function App() {
           </div>
           <div className="lg:flex gap-10">
             <div className="lg:w-1/3">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <Tilt
+                  className="rounded-lg overflow-hidden tilt-container"
+                  options={{ max: 25, scale: 1.05 }}
+                >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                
                 <img src={htmlcss} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">HTML && CSS</h3>
                 <a
@@ -188,10 +193,17 @@ function App() {
                   <li>CSS</li>
                 </ul>
               </div>
+                  
+                </Tilt>
+              
             </div>
 
             <div className="lg:w-1/3">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <Tilt
+                  className="rounded-lg overflow-hidden tilt-container"
+                  options={{ max: 25, scale: 1.05 }}
+                >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 <img src={consulting} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   REACTJS CERTIFICATION
@@ -210,10 +222,17 @@ function App() {
                   <li>EVENT HANDLING</li>
                 </ul>
               </div>
+                  
+                </Tilt>
+              
             </div>
 
             <div className="lg:w-1/3">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <Tilt
+                  className="rounded-lg overflow-hidden tilt-container"
+                  options={{ max: 25, scale: 1.05 }}
+                >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 <img src={design} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">PYTHON COURSE</h3>
                 <a
@@ -229,11 +248,18 @@ function App() {
                   <li>FRAMEWORKS</li>
                 </ul>
               </div>
+              </Tilt>
+              
             </div>
           </div>
+
+
           <div className="lg:flex gap-10">
             <div className="lg:w-1/3">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <Tilt
+                  className="rounded-lg overflow-hidden tilt-container"
+                  options={{ max: 25, scale: 1.05 }}
+                ><div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 <img src={ds} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   DATASCIENCE WITH PYTHON
@@ -250,10 +276,16 @@ function App() {
                   <li>NUMPY & PANDAS</li>
                   <li>MATPLOTLIB</li>
                 </ul>
-              </div>
+              </div></Tilt>
+              
             </div>
+
+
             <div className="lg:w-1/3">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <Tilt
+                  className="rounded-lg overflow-hidden tilt-container"
+                  options={{ max: 25, scale: 1.05 }}
+                ><div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 <img src={sql} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   SQL COURSE CERTIFICATION
@@ -270,10 +302,15 @@ function App() {
                   <li>MYSQl</li>
                   <li>BUILDING DATABASE</li>
                 </ul>
-              </div>
+              </div></Tilt>
+              
             </div>
+
             <div className="lg:w-1/3">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <Tilt
+                  className="rounded-lg overflow-hidden tilt-container"
+                  options={{ max: 25, scale: 1.05 }}
+                ><div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
                 <img src={code} width={300} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2">ENIGMA</h3>
                 <a
@@ -289,7 +326,8 @@ function App() {
                   <li>LOGIC BUILDING</li>
                   <li>PROBLEM-SOLVING</li>
                 </ul>
-              </div>
+              </div></Tilt>
+              
             </div>
           </div>
         </section>
@@ -624,7 +662,7 @@ function App() {
                     alt="Project 6"
                   />
                 </Tilt>
-                
+
                 <div className="flex items-center">
                   <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
                     EXPENSE BUDGET WEBSITE
@@ -748,7 +786,7 @@ function App() {
                     alt="Project 3"
                   />
                 </Tilt>
-                
+
                 <div className="flex items-center">
                   <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
                     WORKOUT STATS WEBSITE
@@ -784,10 +822,10 @@ function App() {
 
                 <p className="text-red-600">
                   A mern stack workout website made using mongodb reactjs
-                  express nodejs where user can add information about
-                  his workout and can<br></br> add information about
-                  his workout and he can delete the workout<br></br> and all the
-                  workouts will be save on the database.
+                  express nodejs where user can add information about his
+                  workout and can<br></br> add information about his workout and
+                  he can delete the workout<br></br> and all the workouts will
+                  be save on the database.
                 </p>
                 <div className="flex justify-center mt-4"></div>
               </div>
@@ -806,7 +844,7 @@ function App() {
                     alt="Project 3"
                   />
                 </Tilt>
-                
+
                 <div className="flex items-center">
                   <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
                     ECOMMERCE MERN WEBSITE
