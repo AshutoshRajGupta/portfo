@@ -39,10 +39,14 @@ function App() {
       <main className=" bg-slate-50 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         {/* header section */}
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-4xl font-extrabold text-slate-600">
-              PORTFOLIO
+          {/* <nav className="py-10 mb-12 flex justify-between dark:text-white">
+            
+            <h1 className="font-burtons text-4xl font-extrabold">
+              <span style={{ color: "red" }}>POR</span>
+              <span style={{ color: "purple" }}>TFO</span>
+              <span style={{ color: "blue" }}>LIO</span>
             </h1>
+
             <ul className="flex items-center">
               <li>
                 <a
@@ -56,12 +60,50 @@ function App() {
                 </a>
               </li>
             </ul>
+          </nav> */}
+
+          <nav className="py-5 md:py-10 mb-12 flex flex-col md:flex-row justify-between items-center md:items-start dark:text-white">
+            <h1 className="font-burtons text-4xl font-extrabold text-center md:text-left">
+              <span style={{ color: "red" }}>POR</span>
+              <span style={{ color: "purple" }}>TFO</span>
+              <span style={{ color: "blue" }}>LIO</span>
+            </h1>
+
+            <ul className="flex items-center justify-center md:justify-start mt-4 md:mt-0">
+              <li>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text-to-teal-900 text-white px-4 py-2 border-none rounded-md ml-0 md:ml-8 mt-2 md:mt-0"
+                  href={resumePDF}
+                  // download="Ashutosh_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  RESUME
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-gray-900 dark:text-gray-300 px-4 py-2 ml-0 md:ml-4 mt-2 md:mt-0"
+                  href="#work"
+                >
+                  WORK
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-gray-900 dark:text-gray-300 px-4 py-2 ml-0 md:ml-4 mt-2 md:mt-0"
+                  href="#projects"
+                >
+                  PROJECTS
+                </a>
+              </li>
+            </ul>
           </nav>
 
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 font-medium dark:text-teal-400 md:text-6xl">
-              <span className="animate-gradient-x text-teal-600">Ashutosh</span>{" "}
-              <span className="animate-pulse text-purple-600">Raj</span>{" "}
+              <span className="animate-gradient-x text-red-600">Ashutosh</span>{" "}
+              <span className="animate-pulse text-yellow-500">Raj</span>{" "}
               <span className="animate-gradient-x text-blue-600">Gupta</span>
             </h2>
 
@@ -97,61 +139,116 @@ function App() {
         </section>
 
         {/* work  */}
-        <section className="py-10">
+        <section className="py-10" id="work">
           <div className="container mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-300 mb-8">
-              Work Experience
+            <h2 className="text-3xl font-bold text-center text-red-300 mb-8">
+              WORK EXPERIENCE
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-slate-50 rounded-lg shadow-2xl p-6 h-64 relative">
+              <div className="bg-green-200 rounded-lg shadow-white p-6 h-64 relative">
                 <Tilt className="tilt">
                   <div className="flex items-center mb-4">
                     <FiBriefcase className="text-teal-600 mr-2" />
-                    <h3 className="text-lg font-medium text-blue-500 dark:text-yellow-300">
+                    <h3 className="text-lg font-medium text-blue-500 dark:text-blue-800">
                       SOLAR SECURE SOLUTIONS
                     </h3>
                   </div>
-                  <h4 className="text-base font-medium text-gray-900 dark:text-gray-300 mb-2">
-                    FULL STACK WEB DEVELOPER
+
+                  <h4 className="text-base font-medium mb-2">
+                    <span style={{ color: "red" }}>F</span>
+                    <span style={{ color: "green" }}>U</span>
+                    <span style={{ color: "blue" }}>L</span>
+                    <span style={{ color: "red" }}>L</span>
+                    <span style={{ color: "green" }}> </span>
+                    <span style={{ color: "blue" }}>S</span>
+                    <span style={{ color: "red" }}>T</span>
+                    <span style={{ color: "green" }}>A</span>
+                    <span style={{ color: "blue" }}>C</span>
+                    <span style={{ color: "red" }}>K</span>
+                    <span style={{ color: "green" }}> </span>
+                    <span style={{ color: "blue" }}>W</span>
+                    <span style={{ color: "red" }}>E</span>
+                    <span style={{ color: "green" }}>B</span>
+                    <span style={{ color: "blue" }}> </span>
+                    <span style={{ color: "red" }}>D</span>
+                    <span style={{ color: "green" }}>E</span>
+                    <span style={{ color: "blue" }}>V</span>
+                    <span style={{ color: "red" }}>E</span>
+                    <span style={{ color: "green" }}>L</span>
+                    <span style={{ color: "blue" }}>O</span>
+                    <span style={{ color: "red" }}>P</span>
+                    <span style={{ color: "green" }}>E</span>
+                    <span style={{ color: "blue" }}>R</span>
                   </h4>
-                  <p className="text-sm text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus elementum nibh nec est feugiat, a luctus felis
-                    efficitur. Fusce scelerisque, dolor et rhoncus fringilla.
+                  <p className="text-sm text-black dark:text-gray-900 font-bold">
+                    Worked as a Web Developer and developed creative and
+                    interactive websites. Worked with Monzen Sustainable team in
+                    configuration of Web Projects. Worked on creating efficient
+                    React and PHP components using different technologies like
+                    React, Node.js, MySQL, HTML, CSS, PHP, JavaScript, and APIs.
                   </p>
-                  <button className="circle-button absolute top-2 right-2">
-                    <img
-                      src={ButtonImage}
-                      alt="Button Image"
-                      className="w-6 h-6"
-                    />
-                  </button>
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="circle-button absolute top-2 right-2">
+                      <img
+                        src={ButtonImage}
+                        alt="Button Image"
+                        className="w-6 h-6"
+                      />
+                    </button>
+                  </a>
                 </Tilt>
               </div>
 
-              <div className="bg-slate-50 rounded-lg shadow-2xl p-6 h-64 relative">
+              <div className="bg-blue-200 rounded-lg shadow-2xl p-6 h-64 relative">
                 <Tilt className="tilt">
                   <div className="flex items-center mb-4">
                     <FiBriefcase className="text-teal-600 mr-2" />
-                    <h3 className="text-lg font-medium text-blue-500 dark:text-yellow-300">
+                    <h3 className="text-lg font-medium text-blue-500 dark:text-green-900">
                       MONZEN SUSTAINABLE DEVELOPMENT
                     </h3>
                   </div>
-                  <h4 className="text-base font-medium text-gray-900 dark:text-gray-300 mb-2">
-                    WEB DEVELOPER
+
+                  <h4 className="text-base font-medium mb-2">
+                    <span style={{ color: "red" }}>W</span>
+                    <span style={{ color: "green" }}>E</span>
+                    <span style={{ color: "blue" }}>B</span>
+                    <span style={{ color: "red" }}> </span>
+                    <span style={{ color: "green" }}>D</span>
+                    <span style={{ color: "blue" }}>E</span>
+                    <span style={{ color: "red" }}>V</span>
+                    <span style={{ color: "green" }}>E</span>
+                    <span style={{ color: "blue" }}>L</span>
+                    <span style={{ color: "red" }}>O</span>
+                    <span style={{ color: "green" }}>P</span>
+                    <span style={{ color: "blue" }}>E</span>
+                    <span style={{ color: "red" }}>R</span>
                   </h4>
-                  <p className="text-sm text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus elementum nibh nec est feugiat, a luctus felis
-                    efficitur. Fusce scelerisque, dolor et rhoncus fringilla.
+
+                  <p className="text-sm text-black dark:text-gray-900 font-bold">
+                    Worked as a Web Developer and developed creative and
+                    interactive websites. Worked with Monzen Sustainable team in
+                    configuration of Web Projects. Worked on creating efficient
+                    React and PHP components using different technologies like
+                    React, Node.js, MySQL, HTML, CSS, PHP, JavaScript, and APIs.
                   </p>
-                  <button className="circle-button absolute top-2 right-2">
-                    <img
-                      src={ButtonImage}
-                      alt="Button Image"
-                      className="w-6 h-6"
-                    />
-                  </button>
+
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="circle-button absolute top-2 right-2">
+                      <img
+                        src={ButtonImage}
+                        alt="Button Image"
+                        className="w-6 h-6"
+                      />
+                    </button>
+                  </a>
                 </Tilt>
               </div>
             </div>
@@ -161,8 +258,8 @@ function App() {
         {/* certification  */}
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-gray-300 font-extrabold">
-              Certifications and courses
+            <h3 className="text-3xl py-1 dark:text-blue-700 font-extrabold text-center">
+              CERTIFICATIONS AND COURSES
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Throughout my career as a designer and developer, I have acquired
@@ -172,171 +269,168 @@ function App() {
           </div>
           <div className="lg:flex gap-10">
             <div className="lg:w-1/3">
-            <Tilt
-                  className="rounded-lg overflow-hidden tilt-container"
-                  options={{ max: 25, scale: 1.05 }}
-                >
+              <Tilt
+                className="rounded-lg overflow-hidden tilt-container"
+                options={{ max: 25, scale: 1.05 }}
+              >
                 <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                
-                <img src={htmlcss} width={300} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">HTML && CSS</h3>
-                <a
-                  href="https://www.udemy.com/certificate/UC-8257aff3-1c38-4feb-835a-399d5c9c8b4e/"
-                  target="_blank"
-                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
-                >
-                  visit
-                </a>
-                <h4 className="py-4 text-teal-600">Skills Gained</h4>
-                <ul className="text-gray-800 py-1">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </div>
-                  
-                </Tilt>
-              
-            </div>
-
-            <div className="lg:w-1/3">
-            <Tilt
-                  className="rounded-lg overflow-hidden tilt-container"
-                  options={{ max: 25, scale: 1.05 }}
-                >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={consulting} width={300} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">
-                  REACTJS CERTIFICATION
-                </h3>
-                <a
-                  href="https://www.udemy.com/certificate/UC-2b0e022c-a01e-4d43-a853-6e99b5a2a40e/"
-                  target="_blank"
-                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
-                >
-                  visit
-                </a>
-                <h4 className="py-4 text-teal-600">Skills Gained</h4>
-                <ul className="text-gray-800 py-1">
-                  <li>REACT COMPONENT</li>
-                  <li>HOOKS IN REACT</li>
-                  <li>EVENT HANDLING</li>
-                </ul>
-              </div>
-                  
-                </Tilt>
-              
-            </div>
-
-            <div className="lg:w-1/3">
-            <Tilt
-                  className="rounded-lg overflow-hidden tilt-container"
-                  options={{ max: 25, scale: 1.05 }}
-                >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={design} width={300} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">PYTHON COURSE</h3>
-                <a
-                  href="https://www.udemy.com/certificate/UC-e442c3b5-b993-4f05-9ca5-18b0881c2cce/"
-                  target="_blank"
-                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
-                >
-                  visit
-                </a>
-                <h4 className="py-4 text-teal-600">Skills Gained</h4>
-                <ul className="text-gray-800 py-1">
-                  <li>PYTHON BASICS</li>
-                  <li>FRAMEWORKS</li>
-                </ul>
-              </div>
+                  <img src={htmlcss} width={300} height={100} />
+                  <h3 className="text-lg font-medium pt-8 pb-2">HTML && CSS</h3>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-8257aff3-1c38-4feb-835a-399d5c9c8b4e/"
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    visit
+                  </a>
+                  <h4 className="py-4 text-teal-600">Skills Gained</h4>
+                  <ul className="text-gray-800 py-1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                </div>
               </Tilt>
-              
+            </div>
+
+            <div className="lg:w-1/3">
+              <Tilt
+                className="rounded-lg overflow-hidden tilt-container"
+                options={{ max: 25, scale: 1.05 }}
+              >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <img src={consulting} width={300} height={100} />
+                  <h3 className="text-lg font-medium pt-8 pb-2">
+                    REACTJS CERTIFICATION
+                  </h3>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-2b0e022c-a01e-4d43-a853-6e99b5a2a40e/"
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    visit
+                  </a>
+                  <h4 className="py-4 text-teal-600">Skills Gained</h4>
+                  <ul className="text-gray-800 py-1">
+                    <li>REACT COMPONENT</li>
+                    <li>HOOKS IN REACT</li>
+                    <li>EVENT HANDLING</li>
+                  </ul>
+                </div>
+              </Tilt>
+            </div>
+
+            <div className="lg:w-1/3">
+              <Tilt
+                className="rounded-lg overflow-hidden tilt-container"
+                options={{ max: 25, scale: 1.05 }}
+              >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <img src={design} width={300} height={100} />
+                  <h3 className="text-lg font-medium pt-8 pb-2">
+                    PYTHON COURSE
+                  </h3>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-e442c3b5-b993-4f05-9ca5-18b0881c2cce/"
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    visit
+                  </a>
+                  <h4 className="py-4 text-teal-600">Skills Gained</h4>
+                  <ul className="text-gray-800 py-1">
+                    <li>PYTHON BASICS</li>
+                    <li>FRAMEWORKS</li>
+                  </ul>
+                </div>
+              </Tilt>
             </div>
           </div>
 
-
           <div className="lg:flex gap-10">
             <div className="lg:w-1/3">
-            <Tilt
-                  className="rounded-lg overflow-hidden tilt-container"
-                  options={{ max: 25, scale: 1.05 }}
-                ><div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={ds} width={300} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">
-                  DATASCIENCE WITH PYTHON
-                </h3>
-                <a
-                  href="https://www.udemy.com/certificate/UC-06476e45-241e-4d52-a89f-d2c29c067f41/"
-                  target="_blank"
-                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
-                >
-                  visit
-                </a>
-                <h4 className="py-4 text-teal-600">Skills Gained</h4>
-                <ul className="text-gray-800 py-1">
-                  <li>NUMPY & PANDAS</li>
-                  <li>MATPLOTLIB</li>
-                </ul>
-              </div></Tilt>
-              
-            </div>
-
-
-            <div className="lg:w-1/3">
-            <Tilt
-                  className="rounded-lg overflow-hidden tilt-container"
-                  options={{ max: 25, scale: 1.05 }}
-                ><div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={sql} width={300} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">
-                  SQL COURSE CERTIFICATION
-                </h3>
-                <a
-                  href="https://www.sololearn.com/certificates/CT-CMYLLQGB"
-                  target="_blank"
-                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
-                >
-                  visit
-                </a>
-                <h4 className="py-4 text-teal-600">Skills Gained</h4>
-                <ul className="text-gray-800 py-1">
-                  <li>MYSQl</li>
-                  <li>BUILDING DATABASE</li>
-                </ul>
-              </div></Tilt>
-              
+              <Tilt
+                className="rounded-lg overflow-hidden tilt-container"
+                options={{ max: 25, scale: 1.05 }}
+              >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <img src={ds} width={300} height={100} />
+                  <h3 className="text-lg font-medium pt-8 pb-2">
+                    DATASCIENCE WITH PYTHON
+                  </h3>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-06476e45-241e-4d52-a89f-d2c29c067f41/"
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    visit
+                  </a>
+                  <h4 className="py-4 text-teal-600">Skills Gained</h4>
+                  <ul className="text-gray-800 py-1">
+                    <li>NUMPY & PANDAS</li>
+                    <li>MATPLOTLIB</li>
+                  </ul>
+                </div>
+              </Tilt>
             </div>
 
             <div className="lg:w-1/3">
-            <Tilt
-                  className="rounded-lg overflow-hidden tilt-container"
-                  options={{ max: 25, scale: 1.05 }}
-                ><div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                <img src={code} width={300} height={100} />
-                <h3 className="text-lg font-medium pt-8 pb-2">ENIGMA</h3>
-                <a
-                  href=""
-                  target="_blank"
-                  className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
-                >
-                  visit
-                </a>
+              <Tilt
+                className="rounded-lg overflow-hidden tilt-container"
+                options={{ max: 25, scale: 1.05 }}
+              >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <img src={sql} width={300} height={100} />
+                  <h3 className="text-lg font-medium pt-8 pb-2">
+                    SQL COURSE CERTIFICATION
+                  </h3>
+                  <a
+                    href="https://www.sololearn.com/certificates/CT-CMYLLQGB"
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    visit
+                  </a>
+                  <h4 className="py-4 text-teal-600">Skills Gained</h4>
+                  <ul className="text-gray-800 py-1">
+                    <li>MYSQl</li>
+                    <li>BUILDING DATABASE</li>
+                  </ul>
+                </div>
+              </Tilt>
+            </div>
 
-                <h4 className="py-4 text-teal-600">Skills Gained</h4>
-                <ul className="text-gray-800 py-1">
-                  <li>LOGIC BUILDING</li>
-                  <li>PROBLEM-SOLVING</li>
-                </ul>
-              </div></Tilt>
-              
+            <div className="lg:w-1/3">
+              <Tilt
+                className="rounded-lg overflow-hidden tilt-container"
+                options={{ max: 25, scale: 1.05 }}
+              >
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                  <img src={code} width={300} height={100} />
+                  <h3 className="text-lg font-medium pt-8 pb-2">ENIGMA</h3>
+                  <a
+                    href=""
+                    target="_blank"
+                    className="btn-primary mr-30 px-4 py-2 bg-teal-600 text-white border border-teal-600 hover:bg-teal-800 hover:border-teal-800"
+                  >
+                    visit
+                  </a>
+
+                  <h4 className="py-4 text-teal-600">Skills Gained</h4>
+                  <ul className="text-gray-800 py-1">
+                    <li>LOGIC BUILDING</li>
+                    <li>PROBLEM-SOLVING</li>
+                  </ul>
+                </div>
+              </Tilt>
             </div>
           </div>
         </section>
 
         {/* projects  */}
-        <section className="py-10">
+        <section className="py-10" id="projects">
           <div>
-            <h3 className="text-3xl py-1 font-bold dark:text-white">
-              Projects
+            <h3 className="text-3xl py-1 font-bold dark:text-green-200 text-center">
+              PROJECTS
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
@@ -384,7 +478,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -397,7 +491,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button  ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -440,7 +534,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button  ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -453,7 +547,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button  ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -504,7 +598,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button  ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -517,7 +611,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button  ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -560,7 +654,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -573,7 +667,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -605,9 +699,7 @@ function App() {
                     alt="Project 5"
                   />
                 </Tilt>
-                {/* <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                  Map2procoder
-                </p> */}
+
                 <div className="flex items-center">
                   <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
                     MAP2CODE LEARNING WEBSITE
@@ -618,7 +710,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -631,7 +723,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -673,7 +765,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -686,7 +778,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -726,9 +818,7 @@ function App() {
                     alt="Project 3"
                   />
                 </Tilt>
-                {/* <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                  Creative_Insights
-                </p> */}
+
                 <div className="flex items-center">
                   <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
                     CREATIVE INSIGHTS WEBSITE
@@ -739,7 +829,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -752,7 +842,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -797,7 +887,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -810,7 +900,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -855,7 +945,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -868,7 +958,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
@@ -901,9 +991,7 @@ function App() {
                     alt="Project 3"
                   />
                 </Tilt>
-                {/* <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
-                  Crypto Website
-                </p> */}
+
                 <div className="flex items-center">
                   <p className="text-lg py-2 font-medium text-blue-900 dark:text-blue-400">
                     CRYPTOCURRENCY STATS WEBSITE
@@ -914,7 +1002,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-20">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-20">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={github}
@@ -927,7 +1015,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button hidden md:block ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
