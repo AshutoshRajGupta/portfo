@@ -258,7 +258,7 @@ function App() {
         {/* certification  */}
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-blue-700 font-extrabold text-center">
+            <h3 className="text-3xl py-1 dark:text-blue-700 font-extrabold text-center text-orange-500">
               CERTIFICATIONS AND COURSES
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -273,7 +273,7 @@ function App() {
                 className="rounded-lg overflow-hidden tilt-container"
                 options={{ max: 25, scale: 1.05 }}
               >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-red-100 bg-green-100">
                   <img src={htmlcss} width={300} height={100} />
                   <h3 className="text-lg font-medium pt-8 pb-2">HTML && CSS</h3>
                   <a
@@ -297,7 +297,7 @@ function App() {
                 className="rounded-lg overflow-hidden tilt-container"
                 options={{ max: 25, scale: 1.05 }}
               >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-green-100 bg-blue-100">
                   <img src={consulting} width={300} height={100} />
                   <h3 className="text-lg font-medium pt-8 pb-2">
                     REACTJS CERTIFICATION
@@ -324,7 +324,7 @@ function App() {
                 className="rounded-lg overflow-hidden tilt-container"
                 options={{ max: 25, scale: 1.05 }}
               >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300 bg-purple-100">
                   <img src={design} width={300} height={100} />
                   <h3 className="text-lg font-medium pt-8 pb-2">
                     PYTHON COURSE
@@ -352,7 +352,7 @@ function App() {
                 className="rounded-lg overflow-hidden tilt-container"
                 options={{ max: 25, scale: 1.05 }}
               >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-blue-100 bg-orange-100">
                   <img src={ds} width={300} height={100} />
                   <h3 className="text-lg font-medium pt-8 pb-2">
                     DATASCIENCE WITH PYTHON
@@ -378,7 +378,7 @@ function App() {
                 className="rounded-lg overflow-hidden tilt-container"
                 options={{ max: 25, scale: 1.05 }}
               >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-orange-100 bg-gray-200">
                   <img src={sql} width={300} height={100} />
                   <h3 className="text-lg font-medium pt-8 pb-2">
                     SQL COURSE CERTIFICATION
@@ -404,7 +404,7 @@ function App() {
                 className="rounded-lg overflow-hidden tilt-container"
                 options={{ max: 25, scale: 1.05 }}
               >
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-yellow-100 bg-red-100">
                   <img src={code} width={300} height={100} />
                   <h3 className="text-lg font-medium pt-8 pb-2">ENIGMA</h3>
                   <a
@@ -435,8 +435,8 @@ function App() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for{" "}
-              <span className="text-teal-500">agencies</span>, consulted for{" "}
-              <span className="text-teal-500">startups</span>, and collaborated
+              <span className="text-yellow-500">agencies</span>, consulted for{" "}
+              <span className="text-orange-500">startups</span>, and collaborated
               with talented people to create digital products for both business
               and consumer use.
             </p>
@@ -1015,7 +1015,7 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-12">
+                    <button className="rounded-full w-10 h-10 bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 tilt-button project-button ml-8">
                       <img
                         className="w-full h-full object-cover rounded-full"
                         src={link}
