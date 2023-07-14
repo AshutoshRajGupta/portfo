@@ -72,17 +72,6 @@ function App() {
             <ul className="flex items-center justify-center md:justify-start mt-4 md:mt-0">
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 text-to-teal-900 text-white px-4 py-2 border-none rounded-md ml-0 md:ml-8 mt-2 md:mt-0"
-                  href={resumePDF}
-                  // download="Ashutosh_resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  RESUME
-                </a>
-              </li>
-              <li>
-                <a
                   className="text-gray-900 dark:text-gray-300 px-4 py-2 ml-0 md:ml-4 mt-2 md:mt-0"
                   href="#work"
                 >
@@ -95,6 +84,17 @@ function App() {
                   href="#projects"
                 >
                   PROJECTS
+                </a>
+              </li>
+              <li>
+                <a
+                  className="bg-gradient-to-r from-cyan-500 text-to-teal-900 text-white px-4 py-2 border-none rounded-md ml-0 md:ml-8 mt-2 md:mt-0"
+                  href={resumePDF}
+                  // download="Ashutosh_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  RESUME
                 </a>
               </li>
             </ul>
@@ -436,9 +436,9 @@ function App() {
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for{" "}
               <span className="text-yellow-500">agencies</span>, consulted for{" "}
-              <span className="text-orange-500">startups</span>, and collaborated
-              with talented people to create digital products for both business
-              and consumer use.
+              <span className="text-orange-500">startups</span>, and
+              collaborated with talented people to create digital products for
+              both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer a wide range of services, including brand design,
